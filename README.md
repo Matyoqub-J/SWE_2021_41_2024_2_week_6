@@ -31,10 +31,10 @@ print(isHappy(number));
 ```
 ### Description
 
-In 'while ( sum != 1 and n not in seen):' loop continues until the sum of the squared digits is equal to 1, 
+In `while ( sum != 1 and n not in seen):` loop continues until the sum of the squared digits is equal to 1, 
 or if the "n" is already inside the "seen" set(which means that number is stuck in a cycle). 
 
-'seen.add(n)' adds all the values to the set to rack the numbers encountered, and 'sum = 0' resets the sum of the past squared digits. 
+`seen.add(n)` adds all the values to the set to rack the numbers encountered, and `sum = 0` resets the sum of the past squared digits. 
 
-Inside the 'while (n > 0):' variable 'remainder = n%10' calculates the digits of a number and which are then squared and added to total sum 'sum += remainder*remainder;'. 
+Inside the `while (n > 0):` variable `remainder = n%10` calculates the digits of a number and which are then squared and added to total sum `sum += remainder*remainder;`. 
 
