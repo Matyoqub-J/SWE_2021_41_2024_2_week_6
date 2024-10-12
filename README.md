@@ -41,3 +41,6 @@ then `n //= 10;` perfoms division of n by 10 removing the extracted digit.
 
 In the final steps `if ( sum == 1 ):` in case of the sum of the square digits being equal to 1 `result = True;` changes the output to `True`.
 
+
+
+# Week 5 Assingment
