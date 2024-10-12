@@ -36,5 +36,8 @@ or if the "n" is already inside the "seen" set(which means that number is stuck 
 
 `seen.add(n)` adds all the values to the set to rack the numbers encountered, and `sum = 0` resets the sum of the past squared digits. 
 
-Inside the `while (n > 0):` variable `remainder = n%10` calculates the digits of a number and which are then squared and added to total sum `sum += remainder*remainder;`. 
+Inside the `while (n > 0):` variable `remainder = n%10` calculates the digits of a number and which are then squared and added to total sum `sum += remainder*remainder;`,
+then `n //= 10;` perfoms division of n by 10 removing the extracted digit. 
+
+In the final steps `if ( sum == 1 ):` in case of the sum of the square digits being equal to 1 `result = True;` changes the output to `True`.
 
