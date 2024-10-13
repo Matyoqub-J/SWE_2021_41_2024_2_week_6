@@ -45,7 +45,7 @@ In the final steps `if ( sum == 1 ):` in case of the sum of the square digits be
 
 # Week 5 Assingment
 `docker exec <container> cat /etc/os-release` 
-###Following command connects to the specified container and executes the `cat` command, displaying the contents of `cat /etc/os-release` file.
+>Following command connects to the specified container and executes the `cat` command, displaying the contents of `cat /etc/os-release` file.
 
 `docker exec <conatiner> git --version`
 ###This command also connects to the container and executes the `git --version` command by outputing the git version information from the container's environment 
