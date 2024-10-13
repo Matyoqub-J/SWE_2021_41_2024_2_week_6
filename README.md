@@ -48,10 +48,10 @@ In the final steps `if ( sum == 1 ):` in case of the sum of the square digits be
 >Following command connects to the specified container and executes the `cat` command, displaying the contents of `cat /etc/os-release` file.
 
 `docker exec <conatiner> git --version`
-###This command also connects to the container and executes the `git --version` command by outputing the git version information from the container's environment 
+>This command also connects to the container and executes the `git --version` command by outputing the git version information from the container's environment 
 
 `docker exec <container> python3 --version`
-###This command displays the **Python 3 version** information within the specified container
+>This command displays the **Python 3 version** information within the specified container
 
 `docker inspect --format="{{ .HostConfig.Binds }}" <container> `
-###Given command inspects the specified container, extracts the list of bind mounts from the container's configuration and then displays the bind mounts in a formatted way.
+>Given command inspects the specified container, extracts the list of bind mounts from the container's configuration and then displays the bind mounts in a formatted way.
