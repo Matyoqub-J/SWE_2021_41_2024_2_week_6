@@ -44,3 +44,6 @@ In the final steps `if ( sum == 1 ):` in case of the sum of the square digits be
 
 
 # Week 5 Assingment
+`docker exec <container> cat /etc/os-release` 
+<sub>Uta </sub>
+
